@@ -11,7 +11,7 @@ def iterative_sum_integer(n):
     return sum
 
 
-print('Iterative solution: ', iterative_sum_integer(2))
+print('Iterative solution: ', iterative_sum_integer(3))
 
 
 def recursive_sum_integer(n):
