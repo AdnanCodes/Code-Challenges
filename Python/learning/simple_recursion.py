@@ -1,7 +1,9 @@
+# Tutorial on Python Debugger in VS Code - https://www.youtube.com/watch?v=w8QHoVam1-I
+
 # Simple summation of a given integer
 
-# 4 -> 4+3+2+1 = 10
-# 3 -> 3 + 2 + 1 = 6
+# 4 -> 4 + 3 + 2 + 1 = 10
+# 3 -> 3 + 2 + 1     = 6
 
 
 def iterative_sum_integer(n):
