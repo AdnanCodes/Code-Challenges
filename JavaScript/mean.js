@@ -18,3 +18,9 @@ function mean(num) {
   avg = sum / size;
   return avg;
 }
+
+//Compact Solution
+function mean(num) {
+  const arr = Math.abs(num).toString().split("");
+  return arr.reduce((acc, item) => acc + +item, 0) / arr.length;
+}
